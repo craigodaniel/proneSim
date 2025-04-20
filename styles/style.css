@@ -1,0 +1,53 @@
+button{
+  background-color: #04AA6D; /* Green */
+  border: solid black;
+  border-radius: 8px;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  text-decoration-color: white;
+  display: inline-block;
+  font-size: 16px;
+  type: "button";
+}
+.upBtn{
+  padding: 15px 32px;
+}
+#sight{
+  background-color: red;
+  border-radius: 50%;
+  top: 250px;
+  left: 140px;
+  align: center;
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  padding: 0px 0px;
+}
+
+#outerVoid{
+  background-color: white;
+  border-radius: 50%;
+  top: 0px;
+  left: 13.5px;
+  width: 75px;
+  height: 75px;
+  position: absolute;
+}
+
+.target{
+  align: center;
+  background-color: black;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: relative;
+  padding: 0px 0px;
+}
+.bulletHole{
+  background-color: white;
+  border: 2px solid gray;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
